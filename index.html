@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Chat | RealTime Chat App by Rohan</title>
+   <!-- The below scr link is taken from socket Documentation  -->
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="JS/client.js"></script>
+    <link rel="shortcut icon" href="logoinnodhu.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="logoinnodhu.png" alt="logo">
+        <h1>Welcome to Let's Chat </h1>
+    </nav>
+    <div class="container">
+        <!-- <div class="message right">Mallesh: This is left Demo mesage</div>
+        <div class="message left">Rohan: this is right side demo</div> -->
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" autocomplete="off" placeholder="Type a Message" id="messageInp">
+            <button type="submit" class="btn">SEND</button>
+        </form>
+    </div>
+</body>
+</html>
